@@ -16,9 +16,11 @@ html:active {
 }
 
 img {
-  width: auto;
+  width: 30vw;
   max-width: 100%;
+  position: relative;
   height: auto;
+  padding-left: 30vw;
   padding: 3vw;
 }
 
@@ -26,7 +28,7 @@ img {
 
 .two {
   display: grid;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   position: relative;
   top: 0px;
@@ -62,16 +64,6 @@ img {
 
 .logo {
   margin-left: 20%;
-}
-
-img {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  max-width: 80%;
-  height: auto;
-  padding: 3vw;
 }
 
 #d1 {
